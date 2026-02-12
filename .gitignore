@@ -1,0 +1,27 @@
+# Ignore models
+*.onnx
+*.pth
+*.pdparams
+
+# Ignore environments
+venv/
+env/
+trialforpp/
+paddleseg_env/
+ppliteseg_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Output folders
+output/
+logs/
+
+# Dataset
+data/
+datasets/
+
+# OS files
+.DS_Store
+
