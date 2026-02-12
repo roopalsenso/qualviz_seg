@@ -1,27 +1,22 @@
-# Ignore models
+# Models
 *.onnx
-*.pth
 *.pdparams
+*.pdmodel
+*.engine
+*.pth
 
-# Ignore environments
+# Virtual environment
 venv/
 env/
-trialforpp/
-paddleseg_env/
-ppliteseg_env/
-
-# Python cache
 __pycache__/
 *.pyc
 
 # Output folders
 output/
 logs/
+inference/
 
-# Dataset
-data/
-datasets/
-
-# OS files
-.DS_Store
-
+# Large files
+*.zip
+*.tar
+*.ckpt
